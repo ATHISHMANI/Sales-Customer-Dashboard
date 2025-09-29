@@ -38,4 +38,46 @@ They serve as the **data backbone** for the Sales Dashboard and Customer Dashboa
 ## ❓ Business Questions Addressed  
 
 ### 📈 Sales Dashboard  
-- **What are the total sale**
+- **What are the total sales, profits, and quantity for this year vs last year?**  
+  → KPI cards summarize yearly comparisons.  
+
+- **How do sales, profits, and quantity trend month-over-month?**  
+  → Monthly trend lines with highest/lowest months highlighted.  
+
+- **Which product subcategories perform best in sales and profit?**  
+  → Side-by-side comparisons of subcategories.  
+
+- **How do weekly sales & profits perform compared to the average?**  
+  → Weekly trends with above/below average indicators.  
+
+---
+
+### 👥 Customer Dashboard  
+- **How many customers, orders, and sales per customer are there year-over-year?**  
+  → KPI cards track growth and changes.  
+
+- **What are the monthly trends in customer KPIs?**  
+  → Line charts highlight best/worst months.  
+
+- **How are customers distributed by number of orders?**  
+  → Histogram shows engagement and loyalty patterns.  
+
+- **Who are the top 10 customers by profit?**  
+  → Ranked table with rank, orders, sales, profit, and last order date.  
+
+---
+
+## 🎨 Design & Interactivity  
+- 🔄 **Dynamic Year Selection** → View historical data by year  
+- 🧭 **Navigation Controls** → Switch easily between dashboards  
+- 🎛 **Interactive Filters** → Product category, subcategory, region, state, city  
+- ⭐ **Highlights** → Emphasis on best/worst months & top customers  
+
+---
+
+## 🛠 Tech Stack  
+- **Tableau Public** → Dashboard design & interactivity  
+- **Python** (`pandas`, `numpy`) → Data generation  
+- **CSV** → Final dataset for Tableau  
+
+---
